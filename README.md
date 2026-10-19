@@ -1,8 +1,8 @@
 <div align="center">
 
 <p align="center">
-  <strong>🇺🇸 English</strong> &nbsp;•&nbsp; <a href="./README.ko.md">🇰🇷 한국어</a> &nbsp;•&nbsp; <a href="./README.ja.md">🇯🇵 日本語</a> &nbsp;•&nbsp; <a href="./README.zh.md">🇨🇳 简体中文</a> &nbsp;•&nbsp; <a href="./README.es.md">🇪🇸 Español</a><br />
-  <a href="./README.fr.md">🇫🇷 Français</a> &nbsp;•&nbsp; <a href="./README.de.md">🇩🇪 Deutsch</a> &nbsp;•&nbsp; <a href="./README.ru.md">🇷🇺 Русский</a> &nbsp;•&nbsp; <a href="./README.pt-BR.md">🇧🇷 Português</a> &nbsp;•&nbsp; <a href="./README.ar.md">🇸🇦 العربية</a>
+  <strong>🇺🇸 English</strong> &nbsp;•&nbsp; <a href="./locales/README.ko.md">🇰🇷 한국어</a> &nbsp;•&nbsp; <a href="./locales/README.ja.md">🇯🇵 日本語</a> &nbsp;•&nbsp; <a href="./locales/README.zh.md">🇨🇳 简体中文</a> &nbsp;•&nbsp; <a href="./locales/README.es.md">🇪🇸 Español</a><br />
+  <a href="./locales/README.fr.md">🇫🇷 Français</a> &nbsp;•&nbsp; <a href="./locales/README.de.md">🇩🇪 Deutsch</a> &nbsp;•&nbsp; <a href="./locales/README.ru.md">🇷🇺 Русский</a> &nbsp;•&nbsp; <a href="./locales/README.pt-BR.md">🇧🇷 Português</a> &nbsp;•&nbsp; <a href="./locales/README.ar.md">🇸🇦 العربية</a>
 </p>
 
 <a href="https://github.com/mason-keller">

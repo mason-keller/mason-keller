@@ -1,12 +1,12 @@
 <div align="center">
 
 <p align="center">
-  <a href="./README.md">🇺🇸 English</a> &nbsp;•&nbsp; <a href="./README.ko.md">🇰🇷 한국어</a> &nbsp;•&nbsp; <a href="./README.ja.md">🇯🇵 日本語</a> &nbsp;•&nbsp; <strong>🇨🇳 简体中文</strong> &nbsp;•&nbsp; <a href="./README.es.md">🇪🇸 Español</a><br />
+  <a href="../README.md">🇺🇸 English</a> &nbsp;•&nbsp; <a href="./README.ko.md">🇰🇷 한국어</a> &nbsp;•&nbsp; <a href="./README.ja.md">🇯🇵 日本語</a> &nbsp;•&nbsp; <strong>🇨🇳 简体中文</strong> &nbsp;•&nbsp; <a href="./README.es.md">🇪🇸 Español</a><br />
   <a href="./README.fr.md">🇫🇷 Français</a> &nbsp;•&nbsp; <a href="./README.de.md">🇩🇪 Deutsch</a> &nbsp;•&nbsp; <a href="./README.ru.md">🇷🇺 Русский</a> &nbsp;•&nbsp; <a href="./README.pt-BR.md">🇧🇷 Português</a> &nbsp;•&nbsp; <a href="./README.ar.md">🇸🇦 العربية</a>
 </p>
 
 <a href="https://github.com/mason-keller">
-  <img src="./assets/hero.svg" alt="Mason Keller Hero Banner" width="100%" />
+  <img src="../assets/hero.svg" alt="Mason Keller Hero Banner" width="100%" />
 </a>
 
 <p align="center">
@@ -16,7 +16,7 @@
 </p>
 
 <a href="https://github.com/mason-keller">
-  <img src="./assets/terminal.svg" alt="Developer Terminal" width="100%" />
+  <img src="../assets/terminal.svg" alt="Developer Terminal" width="100%" />
 </a>
 
 </div>
@@ -32,7 +32,7 @@
 ---
 
 <p align="center">
-  <img src="./assets/architecture-zh.svg" alt="Mason Keller Systems Architecture" width="100%" />
+  <img src="../assets/architecture-zh.svg" alt="Mason Keller Systems Architecture" width="100%" />
 </p>
 
 ### 🏛️ 核心工程支柱与系统架构
@@ -78,7 +78,7 @@
 
 <div align="center">
   <a href="https://github.com/mason-keller">
-    <img src="./assets/stats.svg" alt="Mason Keller Capabilities and Invariants" width="100%" />
+    <img src="../assets/stats.svg" alt="Mason Keller Capabilities and Invariants" width="100%" />
   </a>
 
   <br /><br />
