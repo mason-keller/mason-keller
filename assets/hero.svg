@@ -1,0 +1,49 @@
+<svg fill="none" viewBox="0 0 900 160" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0e17" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#6366f1" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .title-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-weight: 800; font-size: 34px; letter-spacing: -0.5px; fill: url(#textGrad); }
+    .desc-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 13.5px; fill: #94a3b8; font-weight: 450; }
+    .highlight-text { fill: #38bdf8; font-weight: 600; }
+  </style>
+
+  <!-- Background -->
+  <rect width="900" height="160" rx="12" fill="url(#bgGrad)" stroke="#1e293b" stroke-width="1.5" />
+
+  <!-- Left Icon: Security Shield -->
+  <g transform="translate(42, 45)">
+    <rect x="0" y="0" width="70" height="70" rx="16" fill="#1e293b" stroke="#334155" stroke-width="1.2" />
+    <path d="M35 16 L53 26 L53 43 C53 54 35 60 35 60 C35 60 17 54 17 43 L17 26 Z" fill="none" stroke="url(#shieldGrad)" stroke-width="3" stroke-linejoin="round" />
+    <path d="M28 35 L33 40 L43 30" fill="none" stroke="#38bdf8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+
+  <!-- Title and Subtitle -->
+  <g transform="translate(132, 72)">
+    <text x="0" y="0" class="title-text">MASON KELLER</text>
+    <text x="0" y="32" class="desc-text">AI-Native Security Engineer &amp; Systems Architect · Specializing in <tspan class="highlight-text">Defensive Auditing</tspan>, <tspan class="highlight-text">AST Patch Synthesis</tspan> &amp; <tspan class="highlight-text">MCP Protocols</tspan></text>
+  </g>
+
+  <!-- Right Decorative Cyber Grid -->
+  <g transform="translate(740, 35)">
+    <circle cx="45" cy="45" r="42" fill="none" stroke="#1e293b" stroke-dasharray="4 4" />
+    <circle cx="45" cy="45" r="30" fill="none" stroke="#818cf8" stroke-width="1.5" stroke-opacity="0.3" />
+    <circle cx="45" cy="45" r="6" fill="#38bdf8" />
+    <line x1="15" y1="45" x2="75" y2="45" stroke="#334155" stroke-width="1" />
+    <line x1="45" y1="15" x2="45" y2="75" stroke="#334155" stroke-width="1" />
+  </g>
+</svg>

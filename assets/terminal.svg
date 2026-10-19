@@ -1,0 +1,75 @@
+<svg fill="none" viewBox="0 0 900 320" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="termBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .window-header { fill: #0f172a; stroke: #1e293b; stroke-width: 1; }
+    .dot-red { fill: #ff5f56; }
+    .dot-yellow { fill: #ffbd2e; }
+    .dot-green { fill: #27c93f; }
+    .term-title { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 12px; fill: #64748b; text-anchor: middle; }
+    .code-text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 13px; }
+    .c-green { fill: #34d399; }
+    .c-cyan { fill: #38bdf8; }
+    .c-purple { fill: #a855f7; }
+    .c-orange { fill: #fb923c; }
+    .c-gray { fill: #64748b; }
+    .c-white { fill: #f8fafc; }
+    
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+    .cursor { fill: #38bdf8; animation: blink 1s infinite; }
+  </style>
+
+  <!-- Terminal Window -->
+  <rect width="900" height="320" rx="12" fill="url(#termBg)" stroke="#1e293b" stroke-width="1.2" />
+
+  <!-- Header Bar -->
+  <path d="M 0 12 Q 0 0 12 0 L 888 0 Q 900 0 900 12 L 900 36 L 0 36 Z" class="window-header" />
+  <circle cx="20" cy="18" r="5.5" class="dot-red" />
+  <circle cx="36" cy="18" r="5.5" class="dot-yellow" />
+  <circle cx="52" cy="18" r="5.5" class="dot-green" />
+  <text x="450" y="23" class="term-title">mason@vulnforge-security-workstation: ~</text>
+
+  <!-- Terminal Content -->
+  <g transform="translate(28, 68)" class="code-text">
+    <!-- Command 1 -->
+    <text x="0" y="0">
+      <tspan class="c-green">➜ </tspan>
+      <tspan class="c-cyan">~ </tspan>
+      <tspan class="c-purple">(sec:main) </tspan>
+      <tspan class="c-orange">whoami --verbose</tspan>
+    </text>
+
+    <!-- Output 1 -->
+    <text x="0" y="26" class="c-gray">Architect  <tspan class="c-white">: Mason Keller</tspan></text>
+    <text x="0" y="48" class="c-gray">Specialty  <tspan class="c-white">: AI-Native Security Engineering &amp; Autonomous MCP Runtimes</tspan></text>
+    <text x="0" y="70" class="c-gray">Languages  <tspan class="c-cyan">: [TypeScript, Rust, Go, Python, AST/ESLint, Shell]</tspan></text>
+    <text x="0" y="92" class="c-gray">Focus Area <tspan class="c-white">: AST-Level Patch Injection, Canary Sandboxes, Quantum-Safe Vaults</tspan></text>
+
+    <!-- Command 2 -->
+    <text x="0" y="132">
+      <tspan class="c-green">➜ </tspan>
+      <tspan class="c-cyan">~ </tspan>
+      <tspan class="c-purple">(sec:main) </tspan>
+      <tspan class="c-orange">npx vulnforge-mcp --status</tspan>
+    </text>
+
+    <!-- Output 2 -->
+    <text x="0" y="158" class="c-green">● active (v1.2.0) <tspan class="c-gray">- 7 MCP Security Tools &amp; Dual-Phase Canary Sandbox verified (45 tests passed)</tspan></text>
+    
+    <!-- Command 3 (Active Prompt) -->
+    <text x="0" y="200">
+      <tspan class="c-green">➜ </tspan>
+      <tspan class="c-cyan">~ </tspan>
+      <tspan class="c-purple">(sec:main) </tspan>
+      <rect x="108" y="188" width="8" height="15" class="cursor" />
+    </text>
+  </g>
+</svg>
